@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-transform: capitalize;
+}
+.head {
+  background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url(https://images.unsplash.com/photo-1559586616-361e18714958?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2FoYXJhJTIwZGVzZXJ0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.row {
+  display: flex;
+  height: 85%;
+  align-items: center;
+  color: rgb(180, 171, 120);
+}
+.icon {
+  color: rgb(142, 143, 140);
+}
+h1 {
+  font-size: 7em;
+  font-family: "Lobster", cursive;
+  color: rgb(174, 206, 109);
+}
+button {
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px 0;
+  width: 180px;
+  font-size: 20px;
+}
+.card {
+  background-color: red;
+  color: rgb(51, 46, 46);
+  padding: 1em;
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background: url(https://images.unsplash.com/flagged/photo-1572450157894-cb3a7976c050?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNhaGFyYSUyMGRlc2VydHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 0.6s;
+}
+.card2 {
+  background: url(https://images.unsplash.com/photo-1493062133140-518bd1f26539?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHRoYXIlMjBkZXNlcnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card3 {
+  background: url(https://images.unsplash.com/photo-1592488831360-6556895a7f23?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHB5cmFtaWQlMjBvZiUyMGdpemF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card4 {
+  background: url(https://www.worldatlas.com/r/w1200-q80/upload/a0/43/3b/shutterstock-796510987.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h5 {
+  text-shadow: 0 0 5px white;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+@media (max-width: 500px) {
+  .head {
+    height: 200%;
+  }
+}
